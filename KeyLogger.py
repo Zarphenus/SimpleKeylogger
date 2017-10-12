@@ -15,5 +15,5 @@ try:
         listener.join()
 
 except KeyboardInterrupt:
-    with Listener(on_press=on_press) as listener:join
+    with Listener(on_press=on_press) as listener:
         listener.stop()
